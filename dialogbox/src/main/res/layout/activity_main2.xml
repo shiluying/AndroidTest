@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity"
+    android:background="@mipmap/p5"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="欢迎登陆！"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/edit_text1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:hint="请输入用户名" />
+
+    <EditText
+        android:id="@+id/edit_text2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="请输入密码" />
+
+
+
+</LinearLayout>
